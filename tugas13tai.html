@@ -1,0 +1,241 @@
+<html>
+<title>Hello Girls</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+
+<body>
+
+<div class="w3-bar w3-pale-red">
+ <button class="w3-bar-item w3-button" onclick="openKota('cover')">Home</button>
+
+    <div class="w3-dropdown-hover">
+        <button class="w3-button">Makeup</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <button class="w3-bar-item w3-button" onclick="openKota('base')">Base Makeup</button>
+            <button class="w3-bar-item w3-button" onclick="openKota('powder')">Powder</button>
+            <button class="w3-bar-item w3-button" onclick="openKota('bo')">Blush</button>
+            <button class="w3-bar-item w3-button" onclick="openKota('eye')">Eye Product</button>
+            <button class="w3-bar-item w3-button" onclick="openKota('lip')">Lip Product</button>
+        </div>
+    </div>
+    <div class="w3-dropdown-hover">
+        <button class="w3-button">Skincare</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <button class="w3-bar-item w3-button" onclick="openKota('clean')">Cleansing</button>
+            <button class="w3-bar-item w3-button" onclick="openKota('moist')">Moisturizer</button>
+        </div>
+    </div>
+
+ <button class="w3-button" onclick="openKota('tools')">Beauty Tools</button>
+ <button class="w3-button" onclick="openKota('tips')">Beauty Tips</button>
+ <button class="w3-button" onclick="openKota('shop')">Shop</button>
+</div>
+
+
+<div id="cover" class="w3-panel kota w3-animate-zoom w3-center w3-card-4" style="display:block">
+    <img src="cover.jpg" width="100%">
+</div>
+
+<div id="base" class="w3-container kota w3-center" style="display:none">
+    <h2>Base Makeup</h2>
+    <hr>
+    <img src="base.jpg" width="25%" class="w3-animate-top">
+    <p>Kunci makeup yang flawless adalah base makeup yang tepat. 
+    Dibawah ini akan membantu Anda menemukan base makeup yang sesuai dengan kebutuhan Anda.</p>
+    <hr>
+
+    <h3>Primer</h3>
+    <img src="primer.jpg" width="25%" class="w3-animate-bottom">
+    <p>Primer membantu mengurangi keringat melalui pori-pori, yang membuat riasan Anda bertahan lebih lama. 
+        Primer juga bertindak sebagai perisai alami dari debu, air, 
+        dan kotoran yang mungkin membuat riasan Anda luntur.</p>
+    <hr>
+
+    <h3>Fondation</h3>
+    <img src="fondation.jpg" width="25%" class="w3-animate-fading">
+    <p>Foundation merupakan base makeup yang digunakan untuk meratakan warna kulit. 
+        Base makeup ini juga dapat menyamarkan pori-pori dan menghaluskan tekstur kulit yang kasar.
+        Ada beberapa jenis fondation yang bisa ditemui di pasaran :</p>
+        <br>
+    <br>1. Powder Fondation (untuk kulit berminyak)
+    <br><img src="fondation1.jpg" width="25%" class="w3-animate-zoom">
+    <br>2. liquid Fondation (untuk menghasilkan kulit yang lembab)
+    <br><img src="fondation2.jpg" width="25%" class="w3-animate-zoom">
+    <br>3. Cream Fondation (untuk hasil yang lebih coverage)</p>
+    <br><img src="fondation3.jpg" width="25%" class="w3-animate-zoom">
+</div>
+
+<div id="powder" class="w3-container kota w3-center" style="display:none">
+    <h2>Powder</h2>
+    <hr>
+    <img src="powder.jpg" width="25%" class="w3-animate-zoom">
+    <p>Sebelum kalian memutuskan untuk membeli bedak yang cocok dengan kebutuhan, ada baiknya kalian kenali dulu beberapa jenis bedak beserta fungsinya masing-masing. 
+        Yuk, tanpa harus basa-basi lebih lama lagi, berikut adalah jenis-jenis bedak yang wajib kalian ketahui.</p>
+    <br>
+    <p align="left">
+    <br><b>1. Compact Powder</b>
+    <br><img src="powder1.jpg" width="25%" class="w3-animate-fading">
+    <br>Bentuk : Padat
+    <br>Cocok untuk : kulit kering
+    <br><br><b>2. Loose Powder</b>
+    <br><img src="powder2.jpg" width="25%" class="w3-animate-fading">
+    <br>Bentuk : Tabur
+    <br>Cocok untuk : kulit berminyak
+    <br><br><b>3. Two Way Cake</b>
+    <br><img src="powder3.jpg" width="25%" class="w3-animate-zoom">
+    <br>Bentuk : Padat
+    <br>Bentuk : fondation + bedak
+    <br><br><b>4. Translucent Powder</b>
+    <br><img src="powder4.jpg" width="25%" class="w3-animate-zoom">
+    <br>Bentuk : Padat
+    <br>Bentuk : Tabur
+    <br>Kegunaan : mengunci fondation agar tahan lebih lama
+    </p>
+</div>
+
+<div id="bo" class="w3-container kota w3-center" style="display:none">
+    <h2>Blush</h2>
+    <hr>
+    <img src="blush.jpg" width="25%" class="w3-opacity">
+    <p>Sebelum kalian memutuskan untuk membeli bedak yang cocok dengan kebutuhan, ada baiknya kalian kenali dulu beberapa jenis bedak beserta fungsinya masing-masing. 
+        Yuk, tanpa harus basa-basi lebih lama lagi, berikut adalah jenis-jenis bedak yang wajib kalian ketahui.</p>
+    <br>
+    <p align="left">
+    <br><b>1. Powder Blush</b>
+    <br><img src="blush.jpg" width="25%" class="w3-opacity">
+    <br>Bentuk : Padat
+    <br>Cocok untuk : Segala jenis kulit 
+    <br><br><b>2. Cream Blush</b>
+    <br><img src="blush1.jpg" width="25%" class="w3-opacity">
+    <br>Bentuk : Cream
+    <br>Cocok untuk : Kulit Cenderung Kering
+    </p>
+</div>
+
+<div id="eye" class="w3-container kota w3-center" style="display:none">
+    <h2>Eye Product</h2>
+    <hr>
+    <img src="eye.jpg" width="25%" class="w3-animate-right">
+    <p align="left">
+    <br><b>1. Eyeshadow</b>
+    <br><img src="focallure.jpg" width="25%" class="w3-animate-right">
+    <br>Kegunaan : Memberikan warna pada kelopak mata
+    <br><br><b>2. Pencil Brow</b>
+    <br><img src="pencil.jpg" width="25%" class="w3-animate-right">
+    <br>Kegunaan : Menggambar alis
+    <br><br><b>3. Mascara</b>
+    <br><img src="mascara.jpeg" width="25%" class="w3-animate-right">
+    <br>Kegunaan : Membuat bulu mata lentik dan panjang
+    <br><br><b>4. eyeliner</b>
+    <br><img src="eyeliner.jpg" width="25%" class="w3-animate-right">
+    <br>Kegunaan : Membuat mata terkesan lebih tajam dan tegas
+    </p>
+</div>
+
+<div id="lip" class="w3-container kota w3-center" style="display:none">
+    <h2>Lip Product</h2>
+    <hr>
+    <img src="lip.jpg" width="50%" class="w3-animate-right">
+    <p align="left">
+    <br><b>1. Lip Tint</b>
+    <br><img src="lip1.jpg" width="25%" class="w3-animate-zoom">
+    <br>Kegunaan : Memberikan warna pada bibir 
+    <br>Finish look : alami
+    <br><br><b>2. Lip Balm</b>
+    <br><img src="lip3.jpg" width="25%" class="w3-animate-zoom">
+    <br>Kegunaan : Merawat bibir pecah-pecah
+    <br><br><b>3. Lipstick</b>
+    <br><img src="lip4.jpg" width="25%" class="w3-animate-zoom">
+    <br>Kegunaan : Memberi warna pada bibir
+    <br><br><b>4. Lip Cream</b>
+    <br><img src="lip2.jpg" width="25%" class="w3-animate-zoom">
+    <br>Kegunaan : Membuat mata terkesan lebih tajam dan tegas
+    <br>Finish look : matte & tahan lama
+</p>
+</div>
+
+<div id="clean" class="w3-container kota w3-center" style="display:none">
+    <h2>Cleansing</h2>
+    <hr>
+    <img src="clean.jpg" width="25%" class="w3-animate-zoom">
+    <p>Cleanser merupakan sebuah produk yang harus dipakai setiap hari 
+        untuk mengangkat kotoran sisa makeup, debu, dan bakteri penyebab jerawat.</p>
+    <p align="left">
+    <br><b>1. Cleansing Foam</b>
+    <br>Bentuk : Busa 
+    <br>Cocok Untuk : Kulit Berminyak
+    <br><b>2. Micellar Water</b>
+    <br>Kegunaan : mengangkat makeup dan debu pada wajah
+    <br>Cocok Untuk : Kulit Berminyak
+    <br><b>3. Gel Cleanser</b>
+    <br>Kegunaan : Membersihkan wajah khusus untuk kulit berjerawat dan berminyak
+    <br><b>4. Cleansing Oil</b>
+    <br>Kegunaan : Membersihkan sisa makeup dan kotoran
+    <br>Cocok untuk : Kulit kering
+</p>
+</div>
+
+<div id="moist" class="w3-container kota w3-center" style="display:none">
+    <h2>Moisturizer</h2>
+    <hr>
+    <img src="skintific.jpg" width="25%" class="w3-animate-fading">
+    <p>Moisturizer atau pelembap adalah langkah yang sangat krusial dalam tahap skincare. 
+        Selain memberi hidrasi, pelembap berfungsi untuk mengunci produk-produk skincare di tahap sebelumnya.</p>
+</div>
+
+<div id="tools" class="w3-container kota w3-center" style="display:none">
+    <h2>Beauty Tools</h2>
+    <hr>
+    <p>Di bawah ini adalah tools untuk mempermudah saat makeup</p>
+    <p align="left">
+    <br><b>1. Brush</b>
+    <br><img src="brush.jpg" width="25%" class="w3-animate-left">
+    <br>Bentuk : Kuas
+    <br>Kegunaan : Mengaplikasikan bedak, eyeshadow, powder dll.
+    <br><br><b>2. Eyelash Curler</b>
+    <br><img src="eyelash.jpg" width="25%" class="w3-animate-left">
+    <br>Kegunaan : menjepit bulu mata agar lentik
+</div>
+
+<div id="tips" class="w3-container kota w3-center" style="display:none">
+    <h2>Beauty Tips</h2>
+    <hr>
+    <p align="left">
+    <b>1. Tips Berlibur Ke Pantai Supaya Tetap Glowing</b>
+    <br><img src="pantai.jpeg"  width ="25%" class="w3-animate-left">
+    <br>- Gunakan Sunscreen & sunblock untuk melindungi dari sinar UVA & UVB
+    <br>- Gunakan Topi agar kulit tidak terkena paparan panas matahari secara langsung
+    <br><br><b>2. Tips memakai sheet mask</b>
+    <br><img src="mask.jpg"  width ="50%" class="w3-animate-right">
+    <br>- Bersihkan terlebih dahulu sisa makeup dan kotorang dengan Cleanser
+    <br>- Gunakan Sheet Mask dengan merata. Diamkan 15 menit saja.
+    <br>- Jangan membilas wajah karena akan membuang kandungan masker
+</div>
+
+<div id="shop" class="w3-container kota w3-center" style="display:none">
+    <h2>Toko Makeup & Skincare</h2>
+    <hr>
+    <img src="toko.jpg" width="50%" class="w3-animate-top">
+    <hr>
+    <p align="left">
+    <br><b><h1>Sociolla Bandung</h1></b>
+    <img src="toko1.jpg" width="50%" class="w3-animate-left">
+    <br><br>alamat : 23 Paskal Shopping Center Bandung Lantai GF
+    <hr><br><b><h1>Sociolla Yogyakarta</h1></b>
+    <img src="toko2.jpg"  width ="50%" class="w3-animate-right">
+    <br><br>alamat : Jogja City Mall, Jl. Magelang No.18 No.6, Kutu Patran, 
+    Sinduadi, Kec. Mlati, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55284
+</div>
+
+<script>
+function openKota(namakota) {
+ var i;
+ var x = document.getElementsByClassName("kota");
+ for (i = 0; i < x.length; i++) {
+ x[i].style.display = "none"; 
+ }
+ document.getElementById(namakota).style.display = "block"; 
+}
+</script>
+</body>
+</html>
